@@ -28,9 +28,14 @@
 
 @import "tailwindcss/utilities";
 
+@import "slick";
+@import "slick-theme";
+@import "select2";
 @import 'typography';
 @import 'gutenburg';
 @import 'components';
+@import 'buttons';
+@import 'blocks/blocks';
 
 #banner-container{
     @apply bg-primary;

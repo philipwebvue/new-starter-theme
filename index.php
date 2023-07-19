@@ -38,7 +38,7 @@ endif;
         <main id="primary" class="site-main  min-h-default">
             <?php
             if (is_front_page()):
-                get_template_part('templates/pages/home');
+                get_template_part('templates/pages/page-home');
             elseif(is_404()):
                 get_template_part('templates/pages/404');
             elseif(is_search()):

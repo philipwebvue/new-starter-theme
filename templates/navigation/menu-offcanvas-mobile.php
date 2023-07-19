@@ -10,14 +10,14 @@ $menu_name = 'primary'; //menu slug
      class="hidden h-screen max-w-full md:max-w-3/5 lg:max-w-1/2 2xl:max-w-1/3 w-full bg-primary fixed h-screen top-0 right-0 z-50 overflow-y-scroll" >
     <div id="main-menu" class="main-menu px-4 lg:px-12 py-6 lg:py-6">
         <div class="flex justify-between items-center mb-8">
-            <h3 class="text-36 lg:text-46 font-light leading-none">Main Menu</h3>
-            <i class="text-40 close-menu hover:opacity-60 duration-300 cursor-pointer fas fa-times"></i>
+            <h3 class="font-light leading-none">Main Menu</h3>
+            <i class="close-menu hover:opacity-60 duration-300 cursor-pointer fas fa-times"></i>
         </div>
         <div class="mb-2">
-            <h3 class="text-30 lg:text-44 inline-flex mb-5">
+            <h3 class="inline-flex mb-5">
                 <a class="!text-black font-medium flex items-center"
                    href="<?php echo home_url( '/' ); ?>">
-                    <i class="fas text-30 text-theme-blue-dark fa-home mr-4"></i>Home
+                    <i class="fas text-theme-blue-dark fa-home mr-4"></i>Home
                 </a>
             </h3>
 
